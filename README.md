@@ -10,6 +10,7 @@ Usage
 
 <pre><code>
 Usage: rfc-editor &lt;name (-n)|read (-r)|search (-s)&gt; &lt;####&gt; &lt;bcp|fyi|ien|std|rfc&gt;
+       rfc-editor &lt;latest&gt;
 
 Usage examples:
   rfc-editor name 3334 rfc     # displays RFC #3334 name
@@ -27,7 +28,9 @@ Usage examples:
              Department of Defense data networks. National Research Council.
              February 1985. (Format: TXT=42345 bytes) (Status: UNKNOWN)
 
-  rfc-editor read 38 fyi       # read fyi #38</code></pre>
+  rfc-editor read 38 fyi       # read fyi #38
+  
+  rfc-editor latest            # shows list of latest rfc's</code></pre>
 
 Requirements
 ----
@@ -38,13 +41,14 @@ Requirements
 - cURL (http://curl.haxx.se/)
 - and a terminal emulator of some sort, either:
 - Xterm (http://invisible-island.net/xterm/)
+- aterm (http://aterm.sourceforge.net)
 - mrxvt (http://materm.sourceforge.net/)
+- rxvt (http://rxvt.sourceforge.net/)
 - urxvt (http://software.schmorp.de/pkg/rxvt-unicode.html)
 
 Todo / Add
 ----
 
-- Add a log to show what you have searched for or read.
 
 
 License and Author
